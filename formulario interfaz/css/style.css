@@ -1,0 +1,50 @@
+.bg-image {
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/09/marvel-2460339.jpg?tf=1200x');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgb(254, 254, 254);
+    max-width: 900px;
+    margin: 20px auto;
+    top: -50px;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="url"], 
+  textarea, select, input[type="file"], input[type="color"], input[type="range"] {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .mb-3 label {
+    font-weight: 500;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .d-grid {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #000fb9;
+    transition: width 0.3s ease;
+  }
+  
